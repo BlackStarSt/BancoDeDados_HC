@@ -1,0 +1,19 @@
+{
+  "profiles": [
+    {
+      "name": "Sthefany Alves da Cunha de Souza",
+      "birth": "07/12/2002",
+      "age": "19",
+      "city": "Vitoria, Espírito Santo, Brasil",
+      "email": "sthefanya86@gmail.com",
+      "tel": "(27)99959-4599",
+      "school": "Ensino Médio Completo",
+      "xp": "6 meses",
+      "area": "Desenvolvedor Back-End ou Full-Stack",
+      "salary": "1.500,00",
+      "linkedin": "https://www.linkedin.com/in/sthefany-alves-02999b207/",
+      "portfolio": "https://blackstarst.github.io/Portfolio-ONE-Oracle-Alura/",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.corpo {
+    background: #f2f2f2;
+}
+
+.principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.aviso {
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    padding: 50px 0;
+    width: 700px;
+}
+
+.aviso__frase {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.aviso__img {
+    height: 100px;
+    width: 100px;
+}
+
+.aviso__botao {
+    background-color: #008000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+}

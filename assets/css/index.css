@@ -1,0 +1,72 @@
+.corpo {
+    background: #f2f2f2;
+	display: flex;
+	height: 649px;
+	justify-content: center;
+}
+
+.principal {
+	display: flex;
+	justify-content: space-around;
+	width: 430px;
+}
+
+.formulario {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.dados__titulo {
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.container__input {
+	position: relative;
+	width: 100%;
+}
+
+.input {
+	border: none;
+	border-radius: 4px;
+	border-bottom: 1px solid #C8C8C8;
+	color: #A2A2A2;
+	font-size: 20px;
+	outline: 0;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	padding: 0 10px;
+	height: 40px;
+}
+
+.input__titulo {
+	color: #A2A2A2;
+	font-size: 12px;
+	font-weight: 500;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	width: 100px;
+}
+
+.input:focus:focus + .input__titulo,
+.input:not(:placeholder-shown) + .input__titulo {
+	z-index: 2;
+}
+
+.input:focus {
+	border-color: #2A7AE4;
+}
+
+.form__botao {
+	background: #2A7AE4;
+    border: none;
+	cursor: pointer;
+    border-radius: 5px;
+    height: 45px;
+    width: 160px;
+}

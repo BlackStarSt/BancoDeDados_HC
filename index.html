@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>HC-Cadastro</title>
+</head>
+<body class="corpo">
+    <main class="principal">
+        <form class="formulario" data-form>
+            <h1 class="dados__titulo">Cadastro - HardCode</h1>
+            <div class="container__input">
+                <input class="input" type="text" id="nomeCompleto" placeholder="Nome Completo" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Nome completo'" data-name required>
+                <label class="input__titulo" for="nomeCompleto">Nome completo</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="dataDeNascimento" placeholder="Data de nascimento" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='data de nascimento'"data-birth required>
+                <label class="input__titulo" for="dataDeNascimento">Data de nascimento</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="number" id="idade" placeholder="Idade" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Idade'" data-age required>
+                <label class="input__titulo" for="idade">Idade</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="cidade" placeholder="Cidade"
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Cidade'" data-city required>
+                <label class="input__titulo" for="cidade">Cidade</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="email" id="email" placeholder="E-mail" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='E-mail'" data-email required>
+                <label class="input__titulo" for="email">E-mail</label>
+            </div>  
+            <div class="container__input">
+                <input class="input" type="tel" id="numeroCelular" placeholder="Número de Celular" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Número de Celular'" data-tel required>
+                <label class="input__titulo" for="numeroCelular">Número de Celular</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="escola" placeholder="Escolaridade" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Escolaridade'" data-school required>
+                <label class="input__titulo" for="escola"">Escolaridade</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="area" placeholder="Área desejada" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Área desejada'" data-area required>
+                <label class="input__titulo" for="area"">Área desejada</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="experiencia" placeholder="Experiência" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Experiência'" data-xp required>
+                <label class="input__titulo" for="experiencia">Experiência</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="text" id="pretSal" placeholder="Pretensão salarial" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Pretensão salarial'" data-salary required>
+                <label class="input__titulo" for="pretSal"">Pretensão salarial</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="url" id="linkedin" placeholder="LinkedIn" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='LinkedIn'" data-linkedin required>
+                <label class="input__titulo" for="linkedin">LinkedIn</label>
+            </div>
+            <div class="container__input">
+                <input class="input" type="url" id="portfolio" placeholder="Portfólio" 
+				onfocus="this.placeholder=''"
+				onblur="this.placeholder='Portifólio'" data-portfolio required>
+                <label class="input__titulo" for="portfolio">Portfólio</label>
+            </div>
+            <button class="form__botao" type="submit"">Enviar</button>
+        </form>
+    </main>
+</body>
+<script src="./controller/createProfile-controller.js" type="module"></script>
+</html>
